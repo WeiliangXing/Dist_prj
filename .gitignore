@@ -18,3 +18,4 @@ dist.log.*
 
 /docker/jenkins-home/
 /data
+.DS_Store

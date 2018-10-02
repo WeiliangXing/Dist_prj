@@ -13,16 +13,16 @@ services:
       - MYSQL_ROOT_PASSWORD=123
     networks:
       - code-network 
-  jenkins:
-    image: "jenkins:latest"
-    container_name: jenkins-docker
-    ports:
-      - "49001:8080"
-    privileged: true
-    restart: "always"
-    volumes:
-          - ./jenkins-home:/var/jenkins_home
-          - /var/run/docker.sock:/var/run/docker.sock
+  # jenkins:
+  #   image: "jenkins:latest"
+  #   container_name: jenkins-docker
+  #   ports:
+  #     - "49001:8080"
+  #   privileged: true
+  #   restart: "always"
+  #   volumes:
+  #         - ./jenkins-home:/var/jenkins_home
+  #         - /var/run/docker.sock:/var/run/docker.sock
 networks:
   code-network:
     driver: bridge

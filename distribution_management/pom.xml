@@ -6,7 +6,7 @@
     <groupId>com.dist</groupId>
     <artifactId>distribution</artifactId>
     <version>1.0.0-SNAPSHOT</version>
-    <packaging>jar</packaging>
+    <packaging>war</packaging>
 
     <name>distribution</name>
     <description>分销管理中心</description>
