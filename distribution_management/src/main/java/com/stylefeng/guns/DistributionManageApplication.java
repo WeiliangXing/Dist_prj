@@ -33,6 +33,6 @@ public class DistributionManageApplication extends WebMvcConfigurerAdapter{
 
     public static void main(String[] args) {
         SpringApplication.run(DistributionManageApplication.class, args);
-        logger.info("Application is sussess!");
+        logger.info("Application is success!");
     }
 }

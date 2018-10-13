@@ -1,0 +1,26 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - DistributionManageApplication",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "com.stylefeng.guns.DistributionManageApplication",
+            "args": "",
+            "projectName": "distribution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - DistApplication",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "com.plug.xiaojiang.dist.DistApplication",
+            "args": "",
+            "projectName": "dist"
+        }
+    ]
+}

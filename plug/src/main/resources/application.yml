@@ -13,15 +13,15 @@ spring:
           enabled: false
           paths: /**
 server:
-  port: 8080
+  port: 8082
 
-logging:
-  config: classpath:logback.xml
-  path: "/plug.log"
-  level: debug
+# logging:
+#   config: classpath:logback.xml
+#   path: "/plug.log"
+#   level: debug
 dist:
   server:
-    prefix: http://localhost/
+    prefix: http://localhost:8081/
     secret: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1MzE3MjcyNjkxMzIsInBheWxvYWQiOiJcInhpYW9qaWFuZ1wiIn0.OhzV51QMAi2JreuarIvnd1yEZWJLty9f02pkiZjl7M8
 
 
