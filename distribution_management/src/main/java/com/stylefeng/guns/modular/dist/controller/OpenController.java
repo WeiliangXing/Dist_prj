@@ -68,6 +68,7 @@ public class OpenController  {
     @GetMapping("/getUserInfo")
     @DataSource(name = DSEnum.DATA_SOURCE_BIZ)
     @ResponseBody
+    // example:{{host}}/api/v1/getUserInfo?userId=qinshihuang
     public DistResult getUserInfo(String userId){
 
         DisMemberInfo memberInfoParam=new DisMemberInfo();

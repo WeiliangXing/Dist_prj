@@ -25,7 +25,6 @@ import java.util.Map;
 @RequestMapping("/disMemberAmount")
 public class DisMemberAmountController extends BaseController {
 
-
     @Autowired
     IDisMemberAmountService disMemberAmountService;
 
