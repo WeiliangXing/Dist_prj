@@ -1,20 +1,28 @@
 package com.stylefeng.guns.modular.dist.vo;
 
 import java.math.BigDecimal;
-
+/**
+ * @author wx
+ */
 public class DisMemberAmountVo {
 
     private String disUserId;
 
     private String disUserName;
 
-    //总金额
+    /**
+     * 总金额
+     */
     private BigDecimal totalAmount;
 
-    //冻结金额
+    /**
+     * 冻结金额
+     */
     private BigDecimal frozenAmount;
 
-    //可用金额
+    /**
+     * 可用金额
+     */
     private BigDecimal avaibleAmount;
 
     private String addTime;
